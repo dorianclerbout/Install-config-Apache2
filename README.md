@@ -1,13 +1,13 @@
-# Install config Apache2
+# Install config Apache2 server
 
-- [1 -  Install Apache2  ](#1---Install-apache2) 
-- [2 -  Create file php.info ](#2---Create-file-php.info)
-- [3 -  Launch, Reload, and Stop apache2 ](#3---Launch-Reload-and-Stop-apache2)
-
-
+- [1 - Install Apache2  ](#1---Install-Apache2) 
+- [2 - Create file php.info ](#2---Create-file-php.info)
+- [3 - Launch, Reload, and Stop apache2 ](#3---Launch-Reload-and-Stop-apache2)
 
 
-## 1. Install Apache2
+
+
+## 1.  Install Apache2 server
 
 - Inside terminal :
 
@@ -24,7 +24,7 @@
 
 
 - delete index.html :
-> go to /var/www/html/
+>   go to /var/www/html/
 
         rm index.html
 
@@ -44,7 +44,9 @@
 
     localhost or 127.0.0.1
 
-## 3. Launch Reload and Stop apache2
+> you can now deposit your projects in var/www/html/
+
+## 3. Launch, Reload, and Stop apache2
 
 - For launch apache2 :
 
